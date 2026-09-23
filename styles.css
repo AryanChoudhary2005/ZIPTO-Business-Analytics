@@ -242,3 +242,39 @@
 /* Overall Analysis page */
 .overall-summary{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-bottom:18px}.overall-summary .card{min-height:150px}.overall-summary h3{margin:10px 0 6px;font-size:24px}.overall-summary p{max-width:720px;margin:0;color:#9eb1c8;line-height:1.65;font-size:13px}.overall-alert{display:flex;flex-direction:column;justify-content:center;border-color:rgba(255,107,122,.28);background:linear-gradient(145deg,rgba(83,35,56,.58),rgba(20,29,48,.94))}.overall-alert .eyebrow{color:#ff9ba6}.overall-alert strong{margin-top:9px;font-size:19px}.overall-alert span:last-child{margin-top:7px;color:#ffb1ba;font-size:13px}.overall-table-card{padding:20px}.overall-count{padding:7px 10px;border:1px solid rgba(143,165,191,.16);border-radius:9px;color:#9eb1c8;font-size:12px}.overall-table{min-width:760px}.overall-table td small{display:block;margin-top:3px;color:#7087a0;font-size:11px}.overall-table tbody tr.overall-bottom-row td{background:rgba(255,107,122,.09);border-bottom-color:rgba(255,107,122,.22)}.overall-table tbody tr.overall-bottom-row td:first-child{border-left:3px solid #ff6b7a}.overall-risk{display:inline-flex;padding:5px 8px;border-radius:7px;background:rgba(255,107,122,.16);color:#ffadb6;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}.overall-status{color:#85e8c0;font-size:11px;font-weight:800}.negative-profit{color:#ff9fa9}.positive-profit{color:#8ce9c1}@media(max-width:850px){.overall-summary{grid-template-columns:1fr}}
 .overall-question{margin-top:26px;padding:26px;border:1px solid rgba(143,165,191,.14);border-radius:20px;background:linear-gradient(145deg,rgba(15,34,55,.9),rgba(9,23,39,.92))}.overall-question>h3{margin:8px 0 10px;font-size:25px;letter-spacing:-.03em}.overall-answer{max-width:980px;margin:0;color:#c4d3e3;font-size:14px;line-height:1.75}.overall-fix-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:18px}.overall-fix-card{padding:20px;border:1px solid rgba(255,107,122,.22);border-radius:15px;background:rgba(46,28,48,.62)}.overall-fix-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}.overall-fix-head h3{margin:7px 0 0;font-size:28px}.overall-metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}.overall-metric-grid>div{padding:12px;border-radius:10px;background:rgba(7,17,31,.42);border:1px solid rgba(143,165,191,.1)}.overall-metric-grid small,.overall-metric-grid span{display:block;color:#8ea5bd;font-size:10px}.overall-metric-grid strong{display:block;margin:5px 0;color:#f3f7fd;font-size:17px}.overall-fix-card p{margin:10px 0 0;color:#c4d3e3;font-size:13px;line-height:1.6}.formula-inline{display:block;margin-top:4px;color:#9fb4ca;font-size:11px}.overall-chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}.overall-chart{height:360px}.overall-final{margin-top:26px;padding:25px;border:1px solid rgba(102,226,201,.25);border-radius:20px;background:linear-gradient(135deg,rgba(34,84,84,.35),rgba(9,28,45,.92))}.overall-final p{max-width:1040px;margin:10px 0 0;color:#d2e4ec;font-size:15px;line-height:1.75}@media(max-width:900px){.overall-fix-grid,.overall-chart-grid{grid-template-columns:1fr}}@media(max-width:650px){.overall-question{padding:18px}.overall-question>h3{font-size:21px}.overall-metric-grid{grid-template-columns:1fr 1fr}.overall-chart{height:310px}.overall-final p{font-size:13px}}
+
+/* Delivery Deep Dive — added only to Delivery & Fulfilment */
+.delivery-deep-dive{margin-top:4px}
+.delivery-analysis-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:18px}
+.delivery-promise-card{min-width:0}
+.promise-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:6px 0 14px}
+.promise-metrics>div{padding:14px 12px;border-radius:13px;background:rgba(7,17,31,.34);border:1px solid rgba(143,165,191,.12);min-width:0}
+.promise-metrics span{display:block;color:#8fa5bf;font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:800}
+.promise-metrics strong{display:block;margin-top:7px;font-size:22px;line-height:1.1}
+.delivery-callout{padding:13px 14px;border-radius:13px;background:rgba(56,201,255,.07);border:1px solid rgba(56,201,255,.18);color:#dbe9f7;font-size:14px;line-height:1.65}
+.delivery-callout strong{color:#fff}
+.delivery-partner-table-wrap{max-height:290px;overflow:auto}
+.delivery-partner-table{min-width:620px}
+.delivery-partner-table th,.delivery-partner-table td{white-space:nowrap}
+.delivery-partner-table .negative-profit{font-weight:850}
+@media(max-width:1100px){
+  .delivery-analysis-grid{grid-template-columns:1fr}
+  .promise-metrics{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:650px){
+  .promise-metrics{grid-template-columns:1fr 1fr}
+  .promise-metrics strong{font-size:18px}
+  .delivery-callout{font-size:13px}
+  .delivery-partner-table th,.delivery-partner-table td{font-size:11px}
+}
+
+
+/* Delivery partner visual analysis */
+.delivery-deep-dive{margin-top:6px}
+.delivery-analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.partner-chart-card{margin-top:18px}
+.partner-performance-chart{height:330px}
+.partner-performance-chart svg{overflow:visible}
+.delivery-partner-table-wrap{max-height:320px}
+@media(max-width:1100px){.delivery-analysis-grid{grid-template-columns:1fr}.partner-performance-chart{height:310px}}
+@media(max-width:650px){.partner-performance-chart{height:285px}}
