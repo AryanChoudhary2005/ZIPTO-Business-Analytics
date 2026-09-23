@@ -1,0 +1,734 @@
+{
+  "store": {
+    "kpis": {
+      "profitable_stores": 7,
+      "total_stores": 10,
+      "total_orders": 52133,
+      "total_contribution": 3025759.1,
+      "loss_making_stores": 3
+    },
+    "rows": [
+      {
+        "store_id": "S01",
+        "orders": 6091,
+        "gross_revenue": 3370538.3,
+        "discounts": 154609.77,
+        "contribution": 459494.7,
+        "returned": 201,
+        "delivered": 5772,
+        "cancelled": 118,
+        "rent": 178000.0,
+        "months": 1.4,
+        "pnl": 210294.70000000004,
+        "return_rate": 0.03299950747003776,
+        "status": "Profitable",
+        "Store Name": "Sector 18 Hub"
+      },
+      {
+        "store_id": "S02",
+        "orders": 5877,
+        "gross_revenue": 3269608.95,
+        "discounts": 148836.14,
+        "contribution": 457583.42,
+        "returned": 178,
+        "delivered": 5584,
+        "cancelled": 115,
+        "rent": 162000.0,
+        "months": 1.4,
+        "pnl": 230783.41999999998,
+        "return_rate": 0.030287561681129827,
+        "status": "Profitable",
+        "Store Name": "Sector 62 Express"
+      },
+      {
+        "store_id": "S03",
+        "orders": 5564,
+        "gross_revenue": 3051694.83,
+        "discounts": 278306.36,
+        "contribution": 79735.03,
+        "returned": 442,
+        "delivered": 5001,
+        "cancelled": 121,
+        "rent": 196000.0,
+        "months": 1.4,
+        "pnl": -194664.97,
+        "return_rate": 0.0794392523364486,
+        "status": "Loss",
+        "Store Name": "Sector 137 Riverside"
+      },
+      {
+        "store_id": "S04",
+        "orders": 5622,
+        "gross_revenue": 3109656.42,
+        "discounts": 139633.02,
+        "contribution": 444250.81,
+        "returned": 166,
+        "delivered": 5333,
+        "cancelled": 123,
+        "rent": 152000.0,
+        "months": 1.4,
+        "pnl": 231450.81,
+        "return_rate": 0.029526858769121308,
+        "status": "Profitable",
+        "Store Name": "Greater Noida Alpha"
+      },
+      {
+        "store_id": "S05",
+        "orders": 4688,
+        "gross_revenue": 2586827.03,
+        "discounts": 116419.38,
+        "contribution": 359050.77,
+        "returned": 150,
+        "delivered": 4436,
+        "cancelled": 102,
+        "rent": 181000.0,
+        "months": 1.4,
+        "pnl": 105650.77000000005,
+        "return_rate": 0.03199658703071672,
+        "status": "Profitable",
+        "Store Name": "Sector 76 Central"
+      },
+      {
+        "store_id": "S06",
+        "orders": 6153,
+        "gross_revenue": 3347415.33,
+        "discounts": 138560.88,
+        "contribution": 460390.89,
+        "returned": 210,
+        "delivered": 5811,
+        "cancelled": 132,
+        "rent": 158000.0,
+        "months": 1.4,
+        "pnl": 239190.89,
+        "return_rate": 0.034129692832764506,
+        "status": "Profitable",
+        "Store Name": "Noida Extension North"
+      },
+      {
+        "store_id": "S07",
+        "orders": 5687,
+        "gross_revenue": 3123166.37,
+        "discounts": 284563.72,
+        "contribution": -202668.46,
+        "returned": 797,
+        "delivered": 4763,
+        "cancelled": 127,
+        "rent": 228000.0,
+        "months": 1.4,
+        "pnl": -521868.45999999996,
+        "return_rate": 0.14014418850008792,
+        "status": "Loss",
+        "Store Name": "Sector 44 Metro"
+      },
+      {
+        "store_id": "S08",
+        "orders": 5309,
+        "gross_revenue": 2916363.05,
+        "discounts": 124864.39,
+        "contribution": 423669.02,
+        "returned": 162,
+        "delivered": 5041,
+        "cancelled": 106,
+        "rent": 146000.0,
+        "months": 1.4,
+        "pnl": 219269.02000000002,
+        "return_rate": 0.030514221133923526,
+        "status": "Profitable",
+        "Store Name": "Sector 104 Gardens"
+      },
+      {
+        "store_id": "S09",
+        "orders": 1815,
+        "gross_revenue": 1008430.21,
+        "discounts": 44138.67,
+        "contribution": 134691.69,
+        "returned": 72,
+        "delivered": 1712,
+        "cancelled": 31,
+        "rent": 172000.0,
+        "months": 1.4,
+        "pnl": -106108.30999999997,
+        "return_rate": 0.03966942148760331,
+        "status": "Loss",
+        "Store Name": "Sector 150 Sports City"
+      },
+      {
+        "store_id": "S10",
+        "orders": 5327,
+        "gross_revenue": 2941966.31,
+        "discounts": 134248.47,
+        "contribution": 409561.23,
+        "returned": 178,
+        "delivered": 5057,
+        "cancelled": 92,
+        "rent": 165000.0,
+        "months": 1.4,
+        "pnl": 178561.23,
+        "return_rate": 0.03341467993241975,
+        "status": "Profitable",
+        "Store Name": "Sector 51 Junction"
+      }
+    ],
+    "recommendations": [
+      "S07 \u2192 investigate high returns",
+      "S03 \u2192 improve contribution relative to rent"
+    ],
+    "insights": [
+      "S07: High return rate is the primary performance concern. Returned orders create significant negative contribution and are a major driver of the store's poor P&L.",
+      "S03: The store generates positive contribution, but the contribution is insufficient to cover rent over the analysis period."
+    ]
+  },
+  "delivery": {
+    "kpis": {
+      "delivered_orders": 46046,
+      "on_time_delivery_pct": 54.169441997378655,
+      "late_deliveries": 21330,
+      "return_rate": 4.882
+    },
+    "store_rows": [
+      {
+        "store_id": "S01",
+        "on_time_pct": 59.483847680924,
+        "return_rate": 3.31680629167379,
+        "avg_delivery_min": 10.5968937522061,
+        "late_deliveries": 2245
+      },
+      {
+        "store_id": "S02",
+        "on_time_pct": 59.1593825553283,
+        "return_rate": 3.03994344291269,
+        "avg_delivery_min": 10.6276867030965,
+        "late_deliveries": 2196
+      },
+      {
+        "store_id": "S03",
+        "on_time_pct": 34.5200916094108,
+        "return_rate": 7.88389513108614,
+        "avg_delivery_min": 11.94005028041,
+        "late_deliveries": 3145
+      },
+      {
+        "store_id": "S04",
+        "on_time_pct": 58.0948647589181,
+        "return_rate": 2.848101201,
+        "avg_delivery_min": 10.6688511950655,
+        "late_deliveries": 2138
+      },
+      {
+        "store_id": "S05",
+        "on_time_pct": 59.8548689138577,
+        "return_rate": 3.18866253321524,
+        "avg_delivery_min": 10.5364905056051,
+        "late_deliveries": 1715
+      },
+      {
+        "store_id": "S06",
+        "on_time_pct": 59.2107623318386,
+        "return_rate": 3.4231486187816,
+        "avg_delivery_min": 10.6187062937063,
+        "late_deliveries": 2274
+      },
+      {
+        "store_id": "S07",
+        "on_time_pct": 34.1564685314685,
+        "return_rate": 13.8455895837154,
+        "avg_delivery_min": 11.7007008903201,
+        "late_deliveries": 3013
+      },
+      {
+        "store_id": "S08",
+        "on_time_pct": 59.2753623188406,
+        "return_rate": 3.1047357044606,
+        "avg_delivery_min": 10.6421776968225,
+        "late_deliveries": 1967
+      },
+      {
+        "store_id": "S09",
+        "on_time_pct": 60.0623052959502,
+        "return_rate": 4.05405405405405,
+        "avg_delivery_min": 10.5190102595051,
+        "late_deliveries": 641
+      },
+      {
+        "store_id": "S10",
+        "on_time_pct": 58.9300411522634,
+        "return_rate": 3.37890625,
+        "avg_delivery_min": 10.5477578926202,
+        "late_deliveries": 1996
+      }
+    ],
+    "status": [
+      {
+        "trip_status": "delivered",
+        "count": 46046,
+        "pct": 92.092
+      },
+      {
+        "trip_status": "NULL",
+        "count": 1544,
+        "pct": 3.088
+      },
+      {
+        "trip_status": "returned",
+        "count": 2410,
+        "pct": 4.82
+      }
+    ],
+    "trend": [
+      {
+        "date": "2026-05-18",
+        "on_time_pct": 0.5150631681243926,
+        "orders": 1109
+      },
+      {
+        "date": "2026-05-19",
+        "on_time_pct": 0.543336439888164,
+        "orders": 1161
+      },
+      {
+        "date": "2026-05-20",
+        "on_time_pct": 0.533585619678335,
+        "orders": 1142
+      },
+      {
+        "date": "2026-05-21",
+        "on_time_pct": 0.5389221556886228,
+        "orders": 1076
+      },
+      {
+        "date": "2026-05-22",
+        "on_time_pct": 0.5206532180595581,
+        "orders": 1127
+      },
+      {
+        "date": "2026-05-23",
+        "on_time_pct": 0.5280414150129422,
+        "orders": 1238
+      },
+      {
+        "date": "2026-05-24",
+        "on_time_pct": 0.551440329218107,
+        "orders": 1302
+      },
+      {
+        "date": "2026-05-25",
+        "on_time_pct": 0.5147679324894515,
+        "orders": 1016
+      },
+      {
+        "date": "2026-05-26",
+        "on_time_pct": 0.5349462365591398,
+        "orders": 1190
+      },
+      {
+        "date": "2026-05-27",
+        "on_time_pct": 0.5620789220404235,
+        "orders": 1120
+      },
+      {
+        "date": "2026-05-28",
+        "on_time_pct": 0.522107243650047,
+        "orders": 1152
+      },
+      {
+        "date": "2026-05-29",
+        "on_time_pct": 0.5291902071563088,
+        "orders": 1162
+      },
+      {
+        "date": "2026-05-30",
+        "on_time_pct": 0.5303913405495421,
+        "orders": 1298
+      },
+      {
+        "date": "2026-05-31",
+        "on_time_pct": 0.5409698996655519,
+        "orders": 1287
+      },
+      {
+        "date": "2026-06-01",
+        "on_time_pct": 0.5228215767634855,
+        "orders": 1037
+      },
+      {
+        "date": "2026-06-02",
+        "on_time_pct": 0.5326829268292683,
+        "orders": 1096
+      },
+      {
+        "date": "2026-06-03",
+        "on_time_pct": 0.597979797979798,
+        "orders": 1059
+      },
+      {
+        "date": "2026-06-04",
+        "on_time_pct": 0.5366317792578497,
+        "orders": 1121
+      },
+      {
+        "date": "2026-06-05",
+        "on_time_pct": 0.550519357884797,
+        "orders": 1139
+      },
+      {
+        "date": "2026-06-06",
+        "on_time_pct": 0.5493311036789298,
+        "orders": 1272
+      },
+      {
+        "date": "2026-06-07",
+        "on_time_pct": 0.5470016207455429,
+        "orders": 1325
+      },
+      {
+        "date": "2026-06-08",
+        "on_time_pct": 0.5444874274661509,
+        "orders": 1106
+      },
+      {
+        "date": "2026-06-09",
+        "on_time_pct": 0.5285996055226825,
+        "orders": 1098
+      },
+      {
+        "date": "2026-06-10",
+        "on_time_pct": 0.5464216634429401,
+        "orders": 1128
+      },
+      {
+        "date": "2026-06-11",
+        "on_time_pct": 0.5584944048830112,
+        "orders": 1061
+      },
+      {
+        "date": "2026-06-12",
+        "on_time_pct": 0.5480961923847696,
+        "orders": 1080
+      },
+      {
+        "date": "2026-06-13",
+        "on_time_pct": 0.5406050955414012,
+        "orders": 1362
+      },
+      {
+        "date": "2026-06-14",
+        "on_time_pct": 0.524232633279483,
+        "orders": 1325
+      },
+      {
+        "date": "2026-06-15",
+        "on_time_pct": 0.5495575221238939,
+        "orders": 1224
+      },
+      {
+        "date": "2026-06-16",
+        "on_time_pct": 0.5443262411347518,
+        "orders": 1214
+      },
+      {
+        "date": "2026-06-17",
+        "on_time_pct": 0.5747747747747748,
+        "orders": 1195
+      },
+      {
+        "date": "2026-06-18",
+        "on_time_pct": 0.5521978021978022,
+        "orders": 1171
+      },
+      {
+        "date": "2026-06-19",
+        "on_time_pct": 0.5304347826086957,
+        "orders": 1234
+      },
+      {
+        "date": "2026-06-20",
+        "on_time_pct": 0.5416991426344505,
+        "orders": 1375
+      },
+      {
+        "date": "2026-06-21",
+        "on_time_pct": 0.5405616224648986,
+        "orders": 1359
+      },
+      {
+        "date": "2026-06-22",
+        "on_time_pct": 0.5338904363974002,
+        "orders": 1159
+      },
+      {
+        "date": "2026-06-23",
+        "on_time_pct": 0.5519366197183099,
+        "orders": 1207
+      },
+      {
+        "date": "2026-06-24",
+        "on_time_pct": 0.5425925925925926,
+        "orders": 1157
+      },
+      {
+        "date": "2026-06-25",
+        "on_time_pct": 0.547641073080481,
+        "orders": 1159
+      },
+      {
+        "date": "2026-06-26",
+        "on_time_pct": 0.5724572457245725,
+        "orders": 1189
+      },
+      {
+        "date": "2026-06-27",
+        "on_time_pct": 0.5510812826249067,
+        "orders": 1421
+      },
+      {
+        "date": "2026-06-28",
+        "on_time_pct": 0.5241488519398259,
+        "orders": 1347
+      }
+    ],
+    "findings": [
+      "S03 & S07 are the clear delivery-performance outliers.",
+      "S03: On-Time Delivery 34.52% \u2022 Avg. Delivery Time 12.5 min \u2022 Return Rate 7.88%",
+      "S07: On-Time Delivery 34.16% \u2022 Avg. Delivery Time 12.5 min \u2022 Return Rate 13.85%",
+      "Both stores show significantly lower on-time delivery and higher pickup-to-delivery time than the other stores."
+    ],
+    "recovery": [
+      "S03: Excess returns vs network baseline: ~267 \u2022 Potential recovery: ~\u20b90.86L / month",
+      "S07: Excess returns vs network baseline: ~618 \u2022 Potential recovery: ~\u20b92.07L / month",
+      "Combined Potential Recovery: ~\u20b92.93L / month"
+    ]
+  },
+  "product": {
+    "kpis": {
+      "total_orders": 52133,
+      "on_time_delivery_pct": 54.169441997378655,
+      "total_gross_revenue": 28725666.8,
+      "total_category": 8,
+      "avg_discount_cost": 129.63540527100943,
+      "total_stores": 10
+    },
+    "store_rows": [
+      {
+        "store_id": "S01",
+        "total_orders": 6091.0,
+        "gross_revenue": 3370538.3,
+        "profit": 579936.9299999999,
+        "profit_margin_pct": 0.172060626043027,
+        "delivery_pct": 0.947627647348547,
+        "return_pct": 0.03299950747003776,
+        "cancel_pct": 1.94
+      },
+      {
+        "store_id": "S02",
+        "total_orders": 5877.0,
+        "gross_revenue": 3269608.95,
+        "profit": 563371.4199999998,
+        "profit_margin_pct": 0.17230544343842702,
+        "delivery_pct": 0.9501446316147695,
+        "return_pct": 0.030287561681129827,
+        "cancel_pct": 1.96
+      },
+      {
+        "store_id": "S03",
+        "total_orders": 5564.0,
+        "gross_revenue": 3051694.83,
+        "profit": 305530.18,
+        "profit_margin_pct": 0.10011819563229393,
+        "delivery_pct": 0.8988138030194105,
+        "return_pct": 0.0794392523364486,
+        "cancel_pct": 2.17
+      },
+      {
+        "store_id": "S04",
+        "total_orders": 5622.0,
+        "gross_revenue": 3109656.42,
+        "profit": 539230.7500000001,
+        "profit_margin_pct": 0.17340525034595305,
+        "delivery_pct": 0.948594806118819,
+        "return_pct": 0.029526858769121308,
+        "cancel_pct": 2.19
+      },
+      {
+        "store_id": "S05",
+        "total_orders": 4688.0,
+        "gross_revenue": 2586827.03,
+        "profit": 449633.43,
+        "profit_margin_pct": 0.17381658100271205,
+        "delivery_pct": 0.9462457337883959,
+        "return_pct": 0.03199658703071672,
+        "cancel_pct": 2.18
+      },
+      {
+        "store_id": "S06",
+        "total_orders": 6153.0,
+        "gross_revenue": 3347415.33,
+        "profit": 581601.5200000003,
+        "profit_margin_pct": 0.17374644693402902,
+        "delivery_pct": 0.9444173573866407,
+        "return_pct": 0.034129692832764506,
+        "cancel_pct": 2.15
+      },
+      {
+        "store_id": "S07",
+        "total_orders": 5687.0,
+        "gross_revenue": 3123166.37,
+        "profit": 202787.7400000006,
+        "profit_margin_pct": 0.0649301753335672,
+        "delivery_pct": 0.8375241779497099,
+        "return_pct": 0.14014418850008792,
+        "cancel_pct": 2.23
+      },
+      {
+        "store_id": "S08",
+        "total_orders": 5309.0,
+        "gross_revenue": 2916363.05,
+        "profit": 512031.38999999966,
+        "profit_margin_pct": 0.1755718959613069,
+        "delivery_pct": 0.9495196835562253,
+        "return_pct": 0.030514221133923526,
+        "cancel_pct": 2.0
+      },
+      {
+        "store_id": "S10",
+        "total_orders": 5327.0,
+        "gross_revenue": 2941966.31,
+        "profit": 513786.7300000001,
+        "profit_margin_pct": 0.17464058927309745,
+        "delivery_pct": 0.9493148113384644,
+        "return_pct": 0.03341467993241975,
+        "cancel_pct": 1.73
+      },
+      {
+        "store_id": "S09",
+        "total_orders": 1815.0,
+        "gross_revenue": 1008430.21,
+        "profit": 175164.90999999992,
+        "profit_margin_pct": 0.1737005776532616,
+        "delivery_pct": 0.9432506887052342,
+        "return_pct": 0.03966942148760331,
+        "cancel_pct": 1.71
+      }
+    ],
+    "categories": [
+      {
+        "category": "Bakery",
+        "orders": 11776.0,
+        "units_sold": 18927.0,
+        "revenue": 1870350.97,
+        "margin": 329438.94,
+        "Profit Margin Percentage": 0.17613749787292596
+      },
+      {
+        "category": "Beverages",
+        "orders": 23091.0,
+        "units_sold": 41686.0,
+        "revenue": 4854223.38,
+        "margin": 1145579.49,
+        "Profit Margin Percentage": 0.23599645099150754
+      },
+      {
+        "category": "Dairy & Eggs",
+        "orders": 17505.0,
+        "units_sold": 29841.0,
+        "revenue": 3356071.65,
+        "margin": 555078.91,
+        "Profit Margin Percentage": 0.16539542890867662
+      },
+      {
+        "category": "Fruits & Vegetables",
+        "orders": 21161.0,
+        "units_sold": 37905.0,
+        "revenue": 4030632.17,
+        "margin": 946497.06,
+        "Profit Margin Percentage": 0.23482595783479793
+      },
+      {
+        "category": "Household",
+        "orders": 20377.0,
+        "units_sold": 35482.0,
+        "revenue": 3120649.67,
+        "margin": 1195214.16,
+        "Profit Margin Percentage": 0.38300171002533584
+      },
+      {
+        "category": "Meat & Seafood",
+        "orders": 11696.0,
+        "units_sold": 18753.0,
+        "revenue": 2637268.45,
+        "margin": 147708.21,
+        "Profit Margin Percentage": 0.0560080298234334
+      },
+      {
+        "category": "Personal Care",
+        "orders": 20533.0,
+        "units_sold": 35973.0,
+        "revenue": 3797661.92,
+        "margin": 1341113.23,
+        "Profit Margin Percentage": 0.35314181679447654
+      },
+      {
+        "category": "Snacks & Packaged",
+        "orders": 22925.0,
+        "units_sold": 41338.0,
+        "revenue": 4828085.72,
+        "margin": 1883518.33,
+        "Profit Margin Percentage": 0.39011700272794664
+      }
+    ],
+    "promos": [
+      {
+        "promo_code": "NEW100",
+        "orders_used": 1064.0,
+        "gross_revenue": 828878.59,
+        "total_discount_given": 106313.39,
+        "avg_discount": 99.92,
+        "contribution": 40143.72
+      },
+      {
+        "promo_code": "SAVE20",
+        "orders_used": 3729.0,
+        "gross_revenue": 2323389.35,
+        "total_discount_given": 464677.9,
+        "avg_discount": 124.61,
+        "contribution": -55531.88
+      },
+      {
+        "promo_code": "FLAT75",
+        "orders_used": 2273.0,
+        "gross_revenue": 1563588.22,
+        "total_discount_given": 170416.8,
+        "avg_discount": 74.97,
+        "contribution": 94306.21
+      },
+      {
+        "promo_code": "WEEKEND15",
+        "orders_used": 3375.0,
+        "gross_revenue": 2021943.92,
+        "total_discount_given": 303291.35,
+        "avg_discount": 89.86,
+        "contribution": 49256.33
+      },
+      {
+        "promo_code": "CITY150",
+        "orders_used": 86.0,
+        "gross_revenue": 93189.07,
+        "total_discount_given": 12900.0,
+        "avg_discount": 150.0,
+        "contribution": 4876.51
+      },
+      {
+        "promo_code": "FRESH50",
+        "orders_used": 1539.0,
+        "gross_revenue": 1013162.66,
+        "total_discount_given": 506581.36,
+        "avg_discount": 329.16,
+        "contribution": -366909.34
+      }
+    ],
+    "insights": [
+      "We need to fix S03 and S07.",
+      "Broken things: Cancel, Return, Profit",
+      "Fixing these store-level issues has the clearest operational impact."
+    ]
+  }
+}
