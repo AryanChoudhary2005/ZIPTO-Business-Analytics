@@ -16,7 +16,6 @@ https://zipto-business-analytics.vercel.app/
 **GitHub:**  
 https://github.com/AryanChoudhary2005/ZIPTO-Business-Analytics
 
-> If the live URL changes after deployment, replace the website link above with the final Vercel URL.
 
 ---
 
