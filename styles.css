@@ -71,3 +71,165 @@
   .chart,.store-page .chart,.delivery-page .chart,.product-page .chart{height:285px}
   .card{padding:14px}
 }
+
+/* Presentation layout pass — prevent chart/text collisions */
+.card{overflow:hidden}
+.chart{height:350px;padding:0 2px}
+.chart svg{overflow:visible;display:block;width:100%;height:100%}
+.axis-text{font-size:13px;font-weight:700;fill:#cbd9e8}
+.axis-tick{font-size:13px;font-weight:750}
+.axis-title{font-size:16px;font-weight:900;fill:#f4f8ff}
+.value-label{font-size:13px;font-weight:900;fill:#fff;paint-order:stroke;stroke:#07111f;stroke-width:3px}
+.x-label{font-size:12px;font-weight:800;fill:#cbd9e8}
+.category-label{font-size:13px}
+.card-title{font-size:18px;line-height:1.25}
+.card-sub{font-size:12px;line-height:1.45}
+.product-page .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+.product-page .chart{height:365px}
+.product-page .card{padding:17px}
+.product-page .card-title{font-size:18px}
+.product-page .section-title{font-size:29px;margin:34px 0 15px}
+.store-page .chart,.delivery-page .chart{height:350px}
+.recovery-method{margin:0 0 10px}
+.formula{padding:11px 13px;margin:10px 0 12px;border:1px solid rgba(245,189,63,.22);border-radius:11px;background:rgba(7,17,31,.34);color:#ffe6a1;font-size:12px;line-height:1.7;font-weight:700}
+.product-page .card-head{min-height:48px}
+.product-page .card .chart{margin-top:2px}
+.product-page .insight{min-height:0}
+@media(max-width:1100px){
+  .product-page .grid-3{grid-template-columns:1fr}
+  .chart,.store-page .chart,.delivery-page .chart,.product-page .chart{height:340px}
+}
+@media(max-width:650px){
+  .chart,.store-page .chart,.delivery-page .chart,.product-page .chart{height:310px}
+  .axis-text{font-size:11px}.axis-title{font-size:12px}.value-label{font-size:10px}.x-label{font-size:10px}.category-label{font-size:11px}
+  .formula{font-size:11px}
+}
+
+/* Final readability pass — larger type and clean horizontal-bar axes */
+.card-title{font-size:20px;line-height:1.25;font-weight:900}
+.product-page .card-title{font-size:20px}
+.axis-text{font-size:14px;font-weight:800}
+.axis-tick{font-size:14px;font-weight:850}
+.axis-title{font-size:18px;font-weight:900}
+.value-label{font-size:14px;font-weight:900}
+.x-label{font-size:13px;font-weight:850}
+.category-label{font-size:14px;font-weight:850}
+.product-page .chart{height:375px}
+@media(max-width:1100px){
+  .product-page .chart{height:350px}
+}
+@media(max-width:650px){
+  .card-title,.product-page .card-title{font-size:17px}
+  .axis-text,.axis-tick{font-size:11px}
+  .axis-title{font-size:12px}
+  .value-label{font-size:10px}
+  .x-label,.category-label{font-size:10px}
+  .product-page .chart{height:315px}
+}
+
+/* KPI icon treatment */
+.kpi-top{display:flex;align-items:center;gap:9px;min-width:0}
+.kpi-top .label{margin:0;line-height:1.25}
+.kpi-icon{
+  width:34px;height:34px;min-width:34px;border-radius:10px;
+  display:grid;place-items:center;
+  background:linear-gradient(135deg,rgba(79,140,255,.22),rgba(139,92,246,.22));
+  border:1px solid rgba(143,165,191,.16);
+  font-size:18px;line-height:1;
+}
+.kpi:nth-child(2) .kpi-icon{background:rgba(56,201,255,.13)}
+.kpi:nth-child(3) .kpi-icon{background:rgba(54,211,153,.13)}
+.kpi:nth-child(4) .kpi-icon{background:rgba(245,189,63,.14)}
+.kpi:nth-child(5) .kpi-icon{background:rgba(255,107,122,.12)}
+.kpi .label{white-space:normal}
+
+/* Product & Promotions — requested insight content */
+.product-insights{
+  padding:22px 24px;
+}
+.product-insights>h3{
+  margin:0 0 16px;
+  color:#36d399;
+  font-size:18px;
+  font-weight:950;
+  letter-spacing:.08em;
+}
+.product-insights .insight-block{
+  margin-top:12px;
+  padding:14px 16px;
+  border-radius:14px;
+  background:rgba(7,17,31,.28);
+  border:1px solid rgba(143,165,191,.12);
+}
+.product-insights .insight-block h4{
+  margin:0 0 7px;
+  font-size:16px;
+  font-weight:900;
+}
+.product-insights .insight-block ul{
+  margin:0;
+  padding-left:19px;
+}
+.product-insights .insight-block li{
+  font-size:15px;
+  line-height:1.55;
+  color:#e5edf7;
+  margin:2px 0;
+}
+.product-insights .fix h4{color:#f5bd3f}
+.product-insights .value h4{color:#36d399}
+.product-insights .categories h4{color:#4f8cff}
+.product-insights .discount h4{color:#f5bd3f}
+.product-insights .categories ul{
+  columns:2;
+  column-gap:42px;
+}
+.product-insights .categories li{
+  break-inside:avoid;
+}
+@media(max-width:1100px){
+  .product-insights .categories ul{columns:1}
+}
+@media(max-width:650px){
+  .kpi-icon{width:30px;height:30px;min-width:30px;font-size:16px}
+  .product-insights{padding:18px}
+  .product-insights .insight-block li{font-size:13px}
+}
+
+/* Store Performance + Delivery & Fulfilment — same insight treatment as Product & Promotions */
+.dashboard-insights{
+  margin-top:18px;
+}
+.dashboard-insights .insight-block{
+  margin-top:12px;
+  padding:14px 16px;
+  border-radius:14px;
+  background:rgba(7,17,31,.28);
+  border:1px solid rgba(143,165,191,.12);
+}
+.dashboard-insights .insight-block h4{
+  margin:0 0 7px;
+  font-size:16px;
+  font-weight:900;
+}
+.dashboard-insights .insight-block ul{
+  margin:0;
+  padding-left:19px;
+}
+.dashboard-insights .insight-block li{
+  font-size:15px;
+  line-height:1.55;
+  color:#e5edf7;
+  margin:2px 0;
+}
+.dashboard-insights .fix h4{color:#f5bd3f}
+.dashboard-insights .value h4{color:#36d399}
+.dashboard-insights .categories h4{color:#4f8cff}
+.dashboard-insights .discount h4{color:#f5bd3f}
+.dashboard-insights .formula{
+  margin-top:10px;
+}
+@media(max-width:650px){
+  .dashboard-insights{padding:18px}
+  .dashboard-insights .insight-block li{font-size:13px}
+}
